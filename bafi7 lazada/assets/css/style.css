@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* headtop */
+.headtop img {
+    height: 80px;
+    width: 100%;
+}
+.headmid {
+    width: 908px;
+    height: 22px;
+    margin-top: 0;
+    margin-left: 620px;
+}
+.headmid a{
+    font-size: small;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 25px;
+    letter-spacing: normal;
+}
+/* head bottom */
+.menusreach{
+    height: 93px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-left: 290px;
+}
+.menusreach input {
+    height: 45px;
+    width: 660px;
+    margin-left: 60px;
+}
+.logosreach {
+    width: 45px;
+    height: 45px;
+    background-color:#F57224;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logosreach i {
+    font-size: 18px;
+    color: white;
+}
+.logoshopping a i {
+    font-size: 29px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #0A1569;
+}
+.sale img {
+    height: 45px;
+    margin-left: 20px;
+}
+/* main */
+.con2{
+    width: 100%;
+    height: 350px;
+    background-color: bisque;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.warpmain {
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    margin-left: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    
+}
+.warpmain ul li  {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+.warpmain ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.warpmain ul li a:hover{
+    color: #F36D00;
+}
+/* menu c1 */
+.warpmain .menuc1 {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    position: absolute;
+    left: 230px;
+    width: 230px;
+    height: 350px;
+    top: 0;
+}
+.warpmain .menuc1 ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuc1 ul {
+    display: block;
+}
+.warpmain .menuc1 ul li a:hover{
+    color: #F36D00;
+}
+.menuc1{
+    display: none;
+}
+.warpmain ul li:hover .menuc1 {
+    display:block ;
+}
+/* menu c2 */
+.menuc1 .menuc2 {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    left: 230px;
+    width: 230px;
+    height: 350px;
+    top: 0;
+}
+.menuc2{
+    display: none;
+}
+.menuc1 ul li:hover .menuc2 {
+    display: block;
+}
